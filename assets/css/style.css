@@ -75,7 +75,7 @@ nav {
 nav a {
     color: #999;
     text-decoration: none;
-    margin-left: 15px;
+    /*margin-left: 15px; */
     display: inline-block;
     line-height: 18px;
     padding-left: 15px;
@@ -208,3 +208,109 @@ textarea {
      color: #4aaaa5;
  }
 
+ @media only screen and (max-width: 980px) {
+     .container {
+         padding: 0 20px;
+         max-width: 768px;
+     }
+
+     #main-container {
+         padding-top: 130px;
+     }
+
+     .main-area {
+         max-width: 420px;
+     }
+
+     .work {
+         width: 100px
+     }
+
+     .main-area {
+         width: 100%;
+         margin-bottom: 20px;
+     }
+
+     p {color:orange;
+    }
+ }
+
+ @media only screen and (max-width: 768px) {
+     #main-container {
+         overflow: auto;
+         margin-bottom: 40px;
+     }
+
+     .work {
+         width:47%;
+         margin-bottom: 10px;
+     }
+
+     .work:nth-child(even) {
+         margin-right: 0;
+     }
+
+     .work:nth-child(odd) {
+         float: right;
+     }
+
+     .main-image {
+         width:50%;
+     }
+
+
+ }
+
+ @media only screen and (max-width: 640px) {
+     #cabeza {
+         position: static;
+         margin-bottom:20px;
+     }
+     header.container {
+         padding: 0;
+     }
+     #main-container {
+         padding-top: 0;
+     }
+     #named, .work, {
+         width: 100%
+     }
+     nav {
+         text-align: center;
+         width: 100%;
+         margin: 15 0;
+     }
+     nav a {
+         width: 30%;
+         padding-left: 0;
+     }
+    }
+
+
+    /*a {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        display: inline-block;
+  
+    }
+    header {
+     padding: 0 0 2em 0;
+    }
+
+    h1 {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        display: inline-block;
+  
+    }
+
+    p {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        display: inline-block;
+  
+    }
+ 
