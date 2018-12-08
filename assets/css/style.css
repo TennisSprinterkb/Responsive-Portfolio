@@ -147,7 +147,8 @@ footer {
     margin-right: 40px;
 }
 .work img {
-    width: 100%;
+    width: 274px;
+    height:274px;
     border: 0 none;
     opacity: .8;
 }
@@ -255,7 +256,9 @@ textarea {
      }
 
      .main-image {
-         width:50%;
+         width:200%;
+         height:200%;
+
      }
 
 
