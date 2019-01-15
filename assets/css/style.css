@@ -298,6 +298,16 @@ textarea {
          position: static;
          margin-bottom:20px;
      }
+     #named {
+         position: center;
+         width: 100%;
+         background: #4aaaa5;
+     }
+     .sidebar {
+         width: 100%;
+         text-align: left;
+         float: left;
+     }
      header.container {
          padding: 0;
      }
@@ -319,30 +329,4 @@ textarea {
     }
 
 
-    /*a {
-        width: 100%;
-        text-align: center;
-        margin: 0;
-        display: inline-block;
   
-    }
-    header {
-     padding: 0 0 2em 0;
-    }
-
-    h1 {
-        width: 100%;
-        text-align: center;
-        margin: 0;
-        display: inline-block;
-  
-    }
-
-    p {
-        width: 100%;
-        text-align: center;
-        margin: 0;
-        display: inline-block;
-  
-    }
- 
